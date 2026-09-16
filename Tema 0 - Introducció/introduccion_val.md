@@ -1,7 +1,7 @@
-﻿# Tema 0: Introducció a la Digitalització
+# Tema 0: Introducció al Taller de Videojocs
 
-![Transformació Digital i Connectivitat Global](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80)
-*Figura 1: La xarxa global de dades i la digitalització interconnecten tots els àmbits de la societat moderna.*
+![Creació i Desenvolupament de Videojocs](https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80)
+*Figura 1: El desenvolupament de videojocs combina art, narrativa, disseny de so i programació en un projecte creatiu únic.*
 
 ---
 
@@ -10,352 +10,382 @@
 <details open>
 <summary><b>Índex del tema (fes clic per a desplegar o navegar)</b></summary>
 
-- [Tema 0: Introducció a la Digitalització](#tema-0-introducció-a-la-digitalització)
+- [Tema 0: Introducció al Taller de Videojocs](#tema-0-introducció-al-taller-de-videojocs)
   - [Taula de Continguts](#taula-de-continguts)
-  - [1. Què és la Digitalització?](#1-què-és-la-digitalització)
-    - [Comparativa: Mapeig del Món Analògic al Digital](#comparativa-mapeig-del-món-analògic-al-digital)
-    - [Del Món Analògic al Digital: Un Salt Històric](#del-món-analògic-al-digital-un-salt-històric)
-  - [2. La Necessitat de Ser Conscients del Món Digital](#2-la-necessitat-de-ser-conscients-del-món-digital)
-    - [A. La Il·lusió de la "Gratuïtat" i l'Economia de l'Atenció](#a-la-illusió-de-la-gratuïtat-i-leconomia-de-latenció)
-    - [B. Algorismes i Filtratge de la Realitat](#b-algorismes-i-filtratge-de-la-realitat)
-    - [C. Autonomia i Identidad Digital](#c-autonomia-i-identidad-digital)
-    - [D. Ciutadania Crítica i Drets Digitals](#d-ciutadania-crítica-i-drets-digitals)
-  - [3. Passar d'Usuaris Passius a Ciutadans Digitals Actifs](#3-passar-dusuaris-passius-a-ciutadans-digitals-actifs)
+  - [1. Benvinguts al Taller de Videojocs!](#1-benvinguts-al-taller-de-videojocs)
+    - [De què tracta esta assignatura?](#de-què-tracta-esta-assignatura)
+    - [Què és (realmente) un videojoc?](#què-és-realmente-un-videojoc)
+      - [La diferència clau: La Interactivitat i el Bucle de Joc](#la-diferència-clau-la-interactivitat-i-el-bucle-de-joc)
+    - [Els 4 Pilars d'un Videojoc (El Model MDA)](#els-4-pilars-dun-videojoc-el-model-mda)
+  - [2. Resum de la Història i Evolució dels Videojocs](#2-resum-de-la-història-i-evolució-dels-videojocs)
+  - [3. La Influència i Impacte dels Videojocs en la Societat](#3-la-influència-i-impacte-dels-videojocs-en-la-societat)
+    - [A. Un Gegant Econòmic i Cultural](#a-un-gegant-econòmic-i-cultural)
+    - [B. Mecàniques de Retenció i Economia de l'Atenció](#b-mecàniques-de-retenció-i-economia-de-latenció)
+    - [C. Gamificació: Els Jocs en el Món Real](#c-gamificació-els-jocs-en-el-món-real)
+    - [D. Eixides Professionals i Futur Laboral](#d-eixides-professionals-i-futur-laboral)
+  - [4. Passar de Jugadors Passius a Creadors Actius](#4-passar-de-jugadors-passius-a-creadors-actius)
     - [Per què esta competència és fonamental per al teu futur real?](#per-què-esta-competència-és-fonamental-per-al-teu-futur-real)
-  - [4. Visió Global de l'Assignatura: Què anem a aprendre?](#4-visió-global-de-lassignatura-què-anem-a-aprendre)
-    - [Taula Resum dels Continguts del Curs](#taula-resum-dels-continguts-del-curs)
-  - [5. Els Grans Reptes del Món Digital](#5-els-grans-reptes-del-món-digital)
-  - [6. On Estem i Cap a On Anem? El Context Tecnològic Actual](#6-on-estem-i-cap-a-on-anem-el-context-tecnològic-actual)
-    - [Tendències i Vectors del Canvi Actual:](#tendències-i-vectors-del-canvi-actual)
-  - [7. La Emprenta Tecnològica Personal: El Teu Ecosistema Digital](#7-la-emprenta-tecnològica-personal-el-teu-ecosistema-digital)
-  - [8. Exercicis i Activitats de Consolidació Global](#8-exercicis-i-activitats-de-consolidació-global)
+  - [5. Els Grans Reptes de la Indústria del Videojoc](#5-els-grans-reptes-de-la-indústria-del-videojoc)
+  - [6. On Estem i Cap a On Ens Dirigim? El Context Tecnològic Actual](#6-on-estem-i-cap-a-on-ens-dirigim-el-context-tecnològic-actual)
+    - [Tendències i Vectors del Canvi Actual](#tendències-i-vectors-del-canvi-actual)
+  - [7. Exercicis i Activitats de Consolidació Globals](#7-exercicis-i-activitats-de-consolidació-globals)
     - [1. Definició i conceptes bàsics (Resposta curta)](#1-definició-i-conceptes-bàsics-resposta-curta)
-    - [2. Relaciona les columnes (Món Analògic vs. Món Digital)](#2-relaciona-les-columnes-món-analògic-vs-món-digital)
-    - [3. Completa els buits (Mecanismes de l'entorn digital)](#3-completa-els-buits-mecanismes-de-lentorn-digital)
-    - [4. Quadre comparatiu: Consumidor Passiu vs. Creador Digital Actiu](#4-quadre-comparatiu-consumidor-passiu-vs-creador-digital-actiu)
-    - [5. Anàlisi d'imatge i dilema tècnic](#5-anàlisi-dimatge-i-dilema-tècnic)
-    - [6. Classificació de Reptes Digitals](#6-classificació-de-reptes-digitals)
-    - [7. Qüestió d'opinió fonamentada (Propietat Digital)](#7-qüestió-dopinió-fonamentada-propietat-digital)
-    - [8. Anàlisi de veracitat i verificació](#8-anàlisi-de-veracitat-i-verificació)
-    - [9. El Meu Ecosistema Digital](#9-el-meu-ecosistema-digital)
-    - [10. Balanç Global: La Balança Digital](#10-balanç-global-la-balança-digital)
+    - [2. Relaciona les columnes (Conceptes i Història del Videojoc)](#2-relaciona-les-columnes-conceptes-i-història-del-videojoc)
+    - [3. Completa els buits (Pilares i Mecàniques)](#3-completa-els-buits-pilares-i-mecàniques)
+    - [4. Quadre comparatiu: Jugador Passiu vs. Dissenyador/Creador Activo](#4-quadre-comparatiu-jugador-passiu-vs-dissenyadorcreador-activo)
+    - [5. Anàlisi de diagrama i lògica del joc](#5-anàlisi-de-diagrama-i-lògica-del-joc)
+    - [6. Classificació de Reptes de la Indústria](#6-classificació-de-reptes-de-la-indústria)
+    - [7. Qüestió d'opinió fonamentada (Són els videojocs art?)](#7-qüestió-dopinió-fonamentada-són-els-videojocs-art)
+    - [8. Anàlisi ètic de mecàniques de monetització](#8-anàlisi-ètic-de-mecàniques-de-monetització)
+    - [9. El meu Perfil de Creador/a Gamer](#9-el-meu-perfil-de-creadora-gamer)
+    - [10. Balanç Global: La Balança del Videojoc](#10-balanç-global-la-balança-del-videojoc)
     - [Activitat d'Investigació i Indagació Inicial](#activitat-dinvestigació-i-indagació-inicial)
 
 </details>
 
 ---
 
-## 1. Què és la Digitalització?
+## 1. Benvinguts al Taller de Videojocs!
 
-Vivim en un món envoltat de pantalles, sensors, dades i intel·ligència artificial. Però, què significa realment la paraula **digitalització**?
+Hola i benvinguts a l'assignatura **Taller de Videojocs** per a 4t d'ESO!
 
-La **digitalització** és el procés de transformar informació, processos, objectes i activitats analògiques (físiques o tradicionals) en format digital. En altres paraules, consisteix a convertir la informació del món real en un llenguatge numèric (codi binari de **zeros i uns**: `0` i `1`) que els ordinadors i dispositius electrònics poden processar, emmagatzemar, transmetre i comprendre.
+Si estàs llegint açò, és molt probable que en algun moment de la teua vida hagis gaudit jugant amb una consola, un ordinador o el teu propi telèfon mòbil. Els videojocs formen part de les nostres vides quotidianes, del nostre oci i de la cultura popular contemporània. Tanmateix, en esta assignatura no ens limitarem a ser **jugadors (consumidors)**: anem a fer el salt a l'altre costat de la pantalla per a convertir-nos en **creadors, dissenyadors i desenvolupadors**.
 
-### Comparativa: Mapeig del Món Analògic al Digital
-
-```mermaid
-graph LR
-    subgraph MUNDO_ANALÓGICO["Món Analògic (Físic i Continu)"]
-        A1[Foto en paper]
-        A2[Llibre o llibreta]
-        A3[Monedes i bitllets]
-        A4[Carta postal]
-        A5[Disc de vinil]
-    end
-
-    subgraph PROCESO["Procés de Digitalització"]
-        P["Mostreig i Codificació Binària (0 i 1)"]
-    end
-
-    subgraph MUNDO_DIGITAL["Món Digital (Virtual i Discret)"]
-        D1[Arxiu JPG / PNG]
-        D2[Document PDF / eBook]
-        D3[Bizum / Targeta Virtual]
-        D4[Correu electrònic / Xat]
-        D5[Arxiu MP3 / Streaming]
-    end
-
-    MUNDO_ANALÓGICO --> PROCESO --> MUNDO_DIGITAL
-```
-
-### Del Món Analògic al Digital: Un Salt Històric
-- **Món Analògic**: La informació és contínua i física. Un vinil gravat amb ones de so, una fotografia revelada en carret o un expedient en paper guardat en un arxivador.
-- **Món Digital**: La informació és discreta i virtual. Es representa mitjançant dades numèriques (`bits`). Això permet copiar-la infinites vegades sense cap pèrdua de qualitat, enviar-la a l'altra punta del planeta en mil·lisegons i emmagatzemar-la en espais molt reduïts (servidors, el "núvol" o memòries flash).
-
->  **Activitats de l'apartat:**
-> 1. **Anàlisi d'objectes:** Identifica tres objectes o hàbits analògics dels teus pares o iaios i explica com s'han transformat en els seus equivalents digitals actuals.
-> 2. **Debat analògic vs. digital:** Quins aspectes del món analògic (com llegir un llibre físic o escoltar un disc de vinil) creus que es perden en digitalitzar-se? Val la pena digitalitzar-ho absolutament tot?
-> 3. **El repte del codi binari:** Explica amb les teues paraules per què els ordinadors necessiten convertir les imatges, vídeos i sons a zeros i uns (`0` i `1`) en comptes de processar-los directament com els veiem i oïm els humans.
-
----
-
-## 2. La Necessitat de Ser Conscients del Món Digital
-
-No vivim simplement en un món que *utilitza* tecnologia; vivim en una **societat completament digitalitzada**. La tecnologia ja no és sols una eina puntual com ho era una calculadora o una màquina d'escriure; és el **medi en què succeeixen l'economia, la informació, les relacions humanes, la política i el treball**.
+### De què tracta esta assignatura?
+En **Taller de Videojocs** aprendràs a concebir, dissenyar, construir i publicar el teu propi videojoc jugable des de zero. Crear un videojoc és un repte multidisciplinari únic; no consisteix sols a escriure línies de codi informàtic, sinó a combinar harmaciosament diferents disciplines del saber humà:
 
 ```mermaid
 graph TD
-    subgraph EL_ENTORNO_DIGITAL["L'Entorn Digital i els seus Mecanismes"]
-        N1["Atenció i Dades Personals<br/><i>('Si no pagues pel producte, tu eres el producte')</i>"]
-        N2["Algorismes de Recomanació<br/><i>(Filtratge i selecció de continguts)</i>"]
-        N3["Emprenta Digital i Identitat<br/><i>(Rastre i reputació permanent)</i>"]
+    subgraph CREACIÓ_VIDEOJOC["El Projecte Integrat de Creació d'un Videojoc"]
+        A1["Informàtica i Tecnologia<br/><i>(Lògica, algoritmes, motors de joc)</i>"]
+        A2["Llengua Castellana i Literatura<br/><i>(Narrativa, guió, diàlegs i worldbuilding en col·laboració)</i>"]
+        A3["Art i Expressió Plàstica<br/><i>(Disseny 2D/3D, sprites, animació, paleta de color)</i>"]
+        A4["Música i So<br/><i>(Efectos SFX, bandes sonores, ambientació)</i>"]
+        A5["Matemàtiques i Física<br/><i>(Col·lisions, gravetat, acceleració, puntuació)</i>"]
     end
 
-    N1 -->|Provoca| CON1["Risc d'Adicció i Dependència"]
-    N2 -->|Provoca| CON2["Bambolles de Filtre i Desinformació"]
-    N3 -->|Provoca| CON3["Pèrdua de Privacitat i Exposició"]
+    A1 & A2 & A3 & A4 & A5 --> PROTOTIP["PROTOTIP JUGABLE I PUBLICAT"]
 ```
 
-Comprendre i ser conscients de l'entorn digital en què estem immersos és indispensable per diverses raons clau de la nostra vida real:
-
-### A. La Il·lusió de la "Gratuïtat" i l'Economia de l'Atenció
-Quan utilitzem xarxes socials, cercadors o plataformes sense pagar diners, solem pensar que són gratuïtes. La realitat és que **nosaltres som el producte**. La nostra atenció, les nostres cerques, els nostres gustos i les nostres dades personals són la moneda de canvi. Ser conscients d'açò ens permet decidir amb llibertat com i quan consumir tecnologia, en compte de deixar que algorismes dissenyats per a captar la nostra atenció decidisquen per nosaltres.
-
-### B. Algorismes i Filtratge de la Realitat
-Gran part de les notícies que llegim, els vídeos que ens apareixen o les recomanacions que reben estan guiades per **algorismes de recomanació**. Si no som conscients de com funcionen:
-- Podem caure en **bambolles de filtre** i **càmeres de ressonància**, on sols veiem opinions amb les quals ja estem d'acord.
-- Ens tornem vulnerables a la **desinformació** i a la manipulació en moments clau (eleccions, crisis de salut, tendències de consum).
-
-### C. Autonomia i Identidad Digital
-Cada interacció deixa una **emprenta digital** esborrable mai més. La nostra identitat ja no es limita a la nostra presència física; existeix una versió digital de nosaltres construïda per fotos, comentaris, ubicacions i hàbits de compra. Ser conscient del món digital significa prendre les regnes de la nostra reputació i privacitat per a evitar que condicionen el nostre futur personal i professional.
-
-### D. Ciutadania Crítica i Drets Digitals
-En el món real, ser un ciutadà informat requereix conéixer els teus drets digitals: la protecció de les teues dades personals, la neutralitat de la xarxa, la propietat intel·lectual i l'accés equitatiu a la tecnologia. Un ciutadà desinformat digitalment és més manipulable i dependent.
-
->  **Activitats de l'apartat:**
-> 1. **Descodificant la "gratuïtat":** Pensa en l'aplicació o xarxa social que més utilitzes. Si no pagues diners per ella, de quines formes creus que l'empresa obté beneficis econòmics a partir de la teua activitat i les teues dades?
-> 2. **La teua bambolla de filtre:** Reflexiona sobre els vídeos o publicacions que et suggereix la teua xarxa social preferida. Creus que et mostren opinions variades o tendeixen a ensenyar-te sempre el mateix? Per què passa açò?
-> 3. **La teua emprenta inesborrable:** Alguna vegada has buscat el teu nom o el d'algú conegut en Google? Quina informació apareix i quina imatge creus que transmet sobre eixa persona?
+* **Informàtica i Tecnologia:** Lògica de programació, estructures de dades, gestió d'esdeveniments i ús de motors de joc (*Game Engines*).
+* **Llengua Castellana i Literatura (Narrativa i Guió):** En col·laboració directa amb l'assignatura de Castellà, treballarem la creació de mons (*worldbuilding*), el desenvolupament de personatges, l'estructura de l'arc narratiu i el disseny de diàlegs i històries interactives.
+* **Art i Expressió Plàstica:** Disseny de personatges, escenaris, animació 2D (*sprites*), modelat 3D i interfícies visuals.
+* **Música i So:** Composició de música d'ambient, efectes sonors (*SFX*) i disseny auditiu emocional.
+* **Matemàtiques i Física:** Càlcul de coordenades, sistemes de puntuació, detecció de col·lisions i simulació de moviment (gravetat, salts, rebots).
 
 ---
 
-## 3. Passar d'Usuaris Passius a Ciutadans Digitals Actifs
+### Què és (realmente) un videojoc?
 
-Saber lliscar la pantalla d'un smartphone o publicar un vídeo no ens converteix en experts en tecnologia. En el món real existeix una gran diferència entre ser un **consumidor passiu** i ser un **ciutadà digital proactiu, crític i creador**.
+Encara que tots reconeixem un videojoc a l'instant, definir-lo formalment ens ajuda a entendre els engranatges que funcionen davall de la superfície:
 
-| Perfil | Actitud habitual | Relació amb la tecnologia |
+> **Definició Formal:**  
+> Un **videojoc** és un sistema digital i interactiu d'entreteniment en què un o diversos jugadors prenen decisions a través d'un dispositiu d'entrada (comandament, teclat, ratolí, pantalla tàctil, sensor) per a modificar l'estat d'un món virtual que respon en temps real amb retroalimentació visual, auditiva i/o hàptica, seguint un conjunt de regles prèviament dissenyades.
+
+#### La diferència clau: La Interactivitat i el Bucle de Joc
+A diferència del cine, la televisió o la lectura d'un llibre —on l'espectador és un observador passiu—, en el videojoc **el jugador és el protagonista actiu**. Sense les decisions i accions del jugador, l'experiència s'atura per complet.
+
+```mermaid
+graph LR
+    JUGADOR["Jugador/a"] -->|"1. Entrada / Acció (Premre botó)"| JOC["Sistema / Codi"]
+    JOC -->|"2. Processa Regles i Físiques"| ESTAT["Nou Estat del Joc"]
+    ESTAT -->|"3. Eixida / Feedback (Imatge i So)"| JUGADOR
+```
+
+---
+
+### Els 4 Pilars d'un Videojoc (El Model MDA)
+
+En la indústria professional del videojoc s'utilitza la metodologia **MDA** (*Mechanics, Dynamics, Aesthetics*) complementada amb la tecnologia per a estructurar qualsevol obra:
+
+| Pilar | Descripció | Exemple Pràctic |
 | :--- | :--- | :--- |
-| **Consumidor Passiu** | Consumeix continguts infinits, accepta termes sense llegir, comparteix dades alegrements, es creu tot el que veu. | És controlat per la tecnologia i els algorismes. |
-| **Ciutadà Digital Actiu** | Crea continguts, programa, protegeix les seues dades, qüestiona les fonts, entén com funcionen les eines. | Utilitza la tecnologia per a resoldre problemes i millorar el seu entorn. |
+| **Mecàniques (Mechanics)** | Les regles bàsiques, accions i algoritmes que defineixen què es pot fer. | Saltar, disparar, ARREPLEGAR monedes, obrir inventari, temps límit. |
+| **Estètica i Art (Aesthetics)** | La resposta emocional i visual que transmet el joc (gràfics, so, interfície). | Estil *Pixel Art* retro, música de misteri, gràfics 3D realistes. |
+| **Narrativa (Narrative)** | El guió, els personatges, l'univers i el motiu pel qual es lluita. | Un robot explorador ha de salvar el seu planeta abans que s'esgote la bateria. |
+| **Tecnologia (Technology)** | El motor de joc, la plataforma hardware i el codi que ho sosté tot. | Godot Engine, Unity, Scratch, PC, Consola Nintendo Switch, Pantalla tàctil. |
 
-![Usuari Passiu vs Creador Digital](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80)
-*Figura 2: Treballar en equip per a crear, programar i resoldre problemes transforma el nostre paper de simples espectadors a creadors de tecnologia.*
+![Consola Nintendo Switch i comandaments Joy-Con](https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?auto=format&fit=crop&w=1200&q=80)
+*Figura 2: La consola Nintendo Switch i els seus comandaments representen l'evolució de la interactivitat directa entre els jugadors i el món digital.*
+
+> **Activitats de l'apartat:**
+> 1. **Anàlisi d'un clàssic:** Tria un videojoc clàssic com *Tetris* o *Pac-Man* i identifica els seus 4 pilars (Mecàniques, Art, Narrativa i Tecnologia).
+> 2. **El poder de la interactivitat:** Piensa en la teua pel·lícula favorita. Com canviaria la història si fora un videojoc interactiu en què tu prens les decisions?
+> 3. **Mapeig multidisciplinari:** Quina part del desenvolupament d'un videojoc creus que se et donarà millor (programació, dibuix, guió o música) i per què?
+
+---
+
+## 2. Resum de la Història i Evolució dels Videojocs
+
+Per a dissenyar els jocs del futur és imprescindible conéixer el camí recorregut. La història del videojoc és una aventura apassionant de creativitat, gires tecnològiques i superació que abraça més de set dècades d'innovació:
+
+```mermaid
+timeline
+    title Evolució Històrica Sintetitzada
+    1950 - 1960 : Experiments de laboratori (OXO, Tennis for Two, Spacewar!)
+    1970 - 1980 : Naixement de l'Arcade i consoles domèstiques (Pong, Space Invaders, Atari 2600)
+    1983 - 1989 : Crash de 1983 i rescat de Nintendo (NES, Pac-Man, Super Mario Bros, Game Boy)
+    1990 - 1995 : La Guerra dels 16 Bits (SEGA Mega Drive vs Super Nintendo)
+    1995 - 2005 : Revolució del 3D, CD-ROM i PC (PlayStation, Nintendo 64)
+    2006 - Actualitat : Innovació domèstica (Nintendo Wii/Switch), Jocs Indie, Mòbil i VR
+```
+
+![Evolució històrica i consoles retro](https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80)
+*Figura 3: L'evolució des dels salons arcade dels anys 70 fins a les consoles híbrides actuals marca el rumb de la indústria.*
+
+> **Activitat de l'apartat: Cronograma del Hardware Icònic**  
+> Realitza una línia del temps o cronograma a la teua llibreta o document digital centrat en l'aparició del **hardware més emblemàtic** de la indústria (màquines Arcade, sistemes d'emulació com MAME, Atari 2600, NES, Super Nintendo / SNES, SEGA Mega Drive, Game Boy, Sony PlayStation / PS1, Nintendo 64, Nintendo Switch...).  
+> Per a cada sistema o hardware icònic has de detallar:
+> 1. **Companyia creadora i època de llançament.**
+> 2. **Novedat o innovació tecnològica clau que va introduir** (per exemple: moneders i interacció pública en Arcades, cartutxos magnètics intercanviables, salt als 16 bits, emmagatzematge massiu en CD-ROM, stick analògic per a entorns 3D, preservació històrica mitjançant MAME, concepte híbrid sobretaula/portàtil...).
+> 3. **Un joc icona** que demostrara el potencial d'eixe hardware.
+
+> **Estudi a fons:**  
+> En el [Tema 1: Història i Evolució dels Videojocs](../Tema%201%20-%20Historia%20dels%20videojocs/historia_val.md) analitzarem en profunditat cadascuna d'estes fases històriques, els seus autors clau (com Shigeru Miyamoto o Ralph Baer), la crisi del Crash de 1983 i l'evolució del hardware.
+
+---
+
+## 3. La Influència i Impacte dels Videojocs en la Societat
+
+Els videojocs han deixat de ser un simple passatemps infantil per a convertir-se en el **mitjà de comunicació i entreteniment més influent del segle XXI**.
+
+```mermaid
+graph TD
+    subgraph IMPACTE_DEL_VIDEOJOC["El Videojoc en la Societat Actual"]
+        E1["Economia Gigant<br/><i>(Supera el cine i la música junts)</i>"]
+        E2["Fenomen Social i eSports<br/><i>(Comunitats globals i streaming)</i>"]
+        E3["Gamificació i Jocs Seriosos<br/><i>(Educació, salut i simulació)</i>"]
+    end
+
+    E1 --> IMP1["Demanda de Professionals Qualificats"]
+    E2 --> IMP2["Noves Formes d'Oci i Comunicació"]
+    E3 --> IMP3["Solució de Problemes Reals del Món"]
+```
+
+### A. Un Gegant Econòmic i Cultural
+La indústria del videojoc factura a l'any **més ingressos econòmics que les indústries del cine i de la música combinades**. Espanya i la Comunitat Valenciana alberguen desenes d'estudis independents (*indies*) i empreses tecnològiques que generen ocupació d'alta qualificació.
+
+### B. Mecàniques de Retenció i Economia de l'Atenció
+Molts videojocs moderns (especialment els jocs mòbils i *Free-to-Play*) estan dissenyats minuciosament per a captar la nostra atenció durant hores mitjançant psicologia conductual:
+- **Esdeveniments diaris i passes de batalla:** Creen l'efecte *FOMO* (*Fear Of Missing Out* o por a perdre's alguna cosa) per a obligar a connectar-se cada dia.
+- **Microtransaccions i Loot Boxes (Caixes de Botí):** Dissenys comercials que conviden a gastar diners reals dins del joc per a aconseguir aspectes estètics o avantatges competitius.
+- **Sistemes de recompensa variable:** Mecàniques similars a les dels jocs d'atzar que lliberen dopamina en el cervell en rebre premis aleatoris.
+
+Entendre estes mecàniques ens permet jugar amb **autonomia, autocontrol i sentit crític**, evitant caure en hàbits de consum poc saludables.
+
+```mermaid
+graph LR
+    subgraph MECÀNIQUES_RETENCIÓ["Mecàniques de Retenció Agressiva"]
+        R1[Passes de batalla temporals]
+        R2[Caixes de botí aleatòries]
+        R3[Notificacions diàries]
+    end
+
+    subgraph RIESGO["Risc per al Jugador"]
+        C1[Addicció i pèrdua de temps]
+        C2[Gasto econòmic no planificat]
+        C3[Frustració i dependència]
+    end
+
+    MECÀNICAS_RETENCIÓN -->|Genera FOMO| RIESGO
+```
+
+### C. Gamificació: Els Jocs en el Món Real
+La **gamificació** consisteix a aplicar dinàmiques, regles i elements propis dels videojocs en entorns no lúdics per a motivar i resoldre problemes reals:
+- **Educació:** Plaques d'aprenentatge, simuladors (*Minecraft Education*, *Kahoot!*).
+- **Medicina:** Videojocs terapèutics per a rehabilitació motora o estimulació cognitiva.
+- **Entrenament Professional:** Simuladors de vol per a pilots i simuladors quirúrgics per a metges.
+
+### D. Eixides Professionals i Futur Laboral
+El desenvolupament de videojocs obri les portes a professions emergents de gran projecció:
+1. **Programador/a de Videojocs:** Escriu la lògica, físiques i sistemes del joc.
+2. **Game Designer (Dissenyador/a de Joc):** Dissenya les regles, l'equilibri (*balancing*) i l'experiència del jugador.
+3. **Guionista / Narrative Designer:** Escriu la història, diàlegs i missions (recolzant-se en competències lingüístiques).
+4. **Artista 2D/3D i Animador/a:** Crea els personatges, entorns i efectes visuals.
+5. **Dissenyador/a de So i Compositor/a:** Dissenya l'apartat auditiu i la música.
+6. **Tester / QA (Quality Assurance):** Detecta fallades informàtiques (*bugs*) i avalua la jugabilitat.
+
+> **Activitats de l'apartat:**
+> 1. **Anàlisi de retenció:** Identifica una mecànica en un joc que jugues habitualment (per exemple, *Fortnite*, *Brawl Stars* o *Clash Royale*) dissenyada per a connectar-te tots els dies.
+> 2. **Dissenya una app gamificada:** Piensa com gamificaries una faena quotidiana que et resulte avorrida (com arreplegar la teua habitació o estudiar vocabulari) utilitzant punts, nivells o recompenses.
+> 3. **Perfils de la indústria:** Si hagueres de fundar el teu propi estudi de desenvolupament amb 3 companys/es de classe, quin rol assumiria cadascú?
+
+---
+
+## 4. Passar de Jugadors Passius a Creadors Actius
+
+Saber jugar molt bé a un joc o tindre nivell alt en un eSport no et converteix automàticament en dissenyador de videojocs. Existeix un salt fonamental entre ser un **jugador passiu** i convertir-se en un **creador actiu i crític**.
+
+| Perfil | Actitud habitual | Relació amb el videojoc |
+| :--- | :--- | :--- |
+| **Jugador Passiu** | Juga sense preguntar-se com funciona, consumeix continguts de forma il·limitada, es frustra si perd i gasta diners impulsivament. | És consumit i controlat pel disseny del joc. |
+| **Creador / Dissenyador Actiu** | Analitza les mecàniques, comprén per què un nivell és divertit, busca fallades (*bugs*), programa les seues idees i respecta les regles de disseny. | Utilitza el videojoc com a mitjà d'expressió artística i tècnica. |
+
+![Usuari i equip creant projectes](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80)
+*Figura 4: Aprendre a col·laborar en equip per a dissenyar nivells, crear històries i programar canvia la nostra perspectiva del món digital.*
 
 ### Per què esta competència és fonamental per al teu futur real?
 
-1. **Comprensió de l'Entorn**: Entendre què passa "darrere de la pantalla" quan enviem un missatge, busquem en Google o interactuem amb una Intel·ligència Artificial.
-2. **Capacitat de Creació i Emprenedoria**: Qui domina la tecnologia no sols la consumeix, sinó que l'utilitza per a resoldre problemes reals, crear art, dissenyar solucions, automatitzar faenes i emprendre projectes.
-3. **Ciberseguretat i Protecció Personal**: En el món real hi ha amenaces tangibles (estafes bancàries, robatori d'identitat, xantatge digital). Saber defensar-se no és opcional, és una necessitat bàsica d'autoprotecció.
-4. **Transformació del Mercat de Treball**: Quasi qualsevol professió actual (des de la medicina o el disseny gràfic fins a la mecànica, el dret o l'agricultura) se sustenta en sistemes digitals avançats. Dominar la digitalització obri portes reals en qualsevol camp professional.
-5. **Responsabilitat Social i Ètica**: Avaluar l'impacte mediambiental de les dades, els biaixos socials que pot reproduir la Intel·ligència Artificial i defensar una societat digital més justa i inclusiva.
+1. **Pensament Computacional i Lògic:** Aprendràs a desglossar una idea complexa (ex: "un enemic em persegueix i dispara") en instruccions elementals que un ordinador pot processar pas a pas.
+2. **Creativitat i Expressió Narrativa:** A través de la col·laboració amb l'assignatura de Castellà, seràs capaç d'estructurar històries interactives on les decisions del jugador modifiquen el rumb del relat.
+3. **Gestió de Projectes i Treball Col·laboratiu:** Un videojoc no es fa en solitari. Treballaràs en equip planificant fases, repartint rols i complint terminis reals.
+4. **Anàlisi Crític de Mecàniques:** Passaràs de dir *"este joc m'agrada"* a raonar *"este joc funciona perquè la seua corba de dificultat està ben ajustada i la recompensa és justa"*.
 
->  **Activitats de l'apartat:**
-> 1. **Autoavaluació digital:** Fes un diagnòstic personal: en un percentatge estimat del 0% al 100%, quant de temps passes consumint contingut passivament i quant creant contingut o aprenent alguna cosa nova?
-> 2. **Consumidor vs. Creador:** Posa tres exemples de projectes o faenes digitals en les quals meges de ser un simple espectador i et convertisques en un creador actiu (per exemple, editar un vídeo, programar un joc o dissenyar un lloc web).
-> 3. **Ciberseguretat activa:** Identifica dos errors habituals que cometen els usuaris passius en Internet (com utilitzar la mateixa contrasenya o confiar en xarxes Wi-Fi públiques sense protecció) i proposa una solució proactiva.
-
----
-
-## 4. Visió Global de l'Assignatura: Què anem a aprendre?
-
-L'assignatura de **Digitalització de 4t d'ESO** (seguint el currículum de la Comunitat Valenciana) s'articula entorn de cinc grans blocs fonamentals:
-
-```mermaid
-graph TD
-    A[Digitalització 4t ESO] --> B[Bloc 1: Dispositius i Xarxes]
-    A --> C[Bloc 2: Gestió d'Informació i Ciberseguretat]
-    A --> D[Bloc 3: Creació de Contingut Multimèdia]
-    A --> E[Bloc 4: Pensament Computacional i Programació]
-    A --> F[Bloc 5: Tecnologies Emergents i Impacte Social]
-```
-
-### Taula Resum dels Continguts del Curs
-
-| Tema / Bloc | Què estudiarem? | Exemples d'Activitats Pràctiques |
-| :--- | :--- | :--- |
-| **0. Introducció** | Conceptes bàsics de la digitalització, impacte social i full de ruta de l'assignatura. | Debats sobre l'ús de la tecnologia, anàlisi de l'entorn digital personal. |
-| **1. Dispositius, Sistemes i Xarxes** | Programari, maquinari, arquitectures d'ordinadors, sistemes operatius i configuració de xarxes locals i Internet. | Anàlisi de components interns, ordres de xarxa, configuració de xarxes Wi-Fi. |
-| **2. Gestió de la Informació, Ciberseguretat i Ciutadania** | Cerca avançada d'informació, emprenta digital, ciberseguretat, criptografia i benestar digital. | Auditoria de contrasenyes, detecció de phishing, configuració de privacitat. |
-| **3. Creació de Continguts Multimèdia** | Disseny gràfic, edició d'àudio/vídeo, llicències de propietat intel·lectual (Creative Commons) i desenvolupament web. | Edició amb GIMP/Inkscape/Audacity, creació d'un lloc web accessible en HTML/CSS. |
-| **4. Pensament Computacional i Programació** | Algorismes, lògica de programació, llenguatges (blocs/Python), desenvolupament d'aplicacions o robòtica. | Creació de xicotets programes, scripts d'automatització, jocs o simulacions. |
-| **5. Tecnologies Emergentes i Impacte Socioeconòmic** | Intel·ligència Artificial (IA), Big Data, Internet de les Coses (IoT), ètica tecnològica i sostenibilitat. | Generació de prompts en IA, projectes de domòtica/IoT, anàlisi de biaixos en algorismes. |
-
->  **Activitats de l'apartat:**
-> 1. **Les meues metes per al curs:** Revisa els 5 blocs del curs i tria els dos que més et criden l'atenció. Explica breument què t'agradaria aprendre a fer en ells.
-> 2. **Connexió laboral:** Tria una professió que t'interesse per al futur (metge/essa, arquitecte/a, dissenyador/a, mecànic/a, docent...) i explica com es relaciona la digitalització amb eixa faena.
-> 3. **Projecte integrat:** En parelles, penseu en una idea de projecte digital per al vostre centre escolar (per exemple, una app de biblioteca o un canal de ràdio escolar) i identifiqueu quins blocs de l'assignatura necessitaríeu dominar.
+> **Activitats de l'apartat:**
+> 1. **Autodesavaluació:** Et consideres actualment un jugador purament consumidor o un creador curiós? Què t'agradaria canviar este curs?
+> 2. **El 'Bug' com a oportunitat:** Recorda alguna fallada o *bug* graciós que hagis vist en un joc. Quina part del codi creus que va fallar perquè açò ocorreguera?
+> 3. **Desglossament d'accions:** Escriu pas a pas (com un algoritme) totes les instruccions necessàries perquè un personatge salte sobre una plataforma quan prem la barra espaciadora.
 
 ---
 
-## 5. Els Grans Reptes del Món Digital
+## 5. Els Grans Reptes de la Indústria del Videojoc
 
-La digitalització no sols aporta avantatges; també planteja grans desafiaments que hem d'aprendre a gestionar de manera conscient i ètica:
+Igual com ocorre en el món digital general, l'univers dels videojocs afronta dilemes ètics, socials i tècnics que hem de comprendre com a creadors conscients:
 
 ```mermaid
 graph LR
-    R["Reptes del Món Digital"] --> R1["1. Bretxa Digital<br/><i>(Desigualtat d'accés)</i>"]
-    R --> R2["2. Emprenta i Privacitat<br/><i>(Rastre no controlat)</i>"]
-    R --> R3["3. Ciberseguretat<br/><i>(Estafes i ciberdelicte)</i>"]
-    R --> R4["4. Benestar Digital<br/><i>(Adicció i salut mental)</i>"]
-    R --> R5["5. Impacte Ambiental<br/><i>(Basura e-waste i consum)</i>"]
+    R["Reptes del Videojoc"] --> R1["1. Monetització Depredadora<br/><i>(Loot boxes i Pay-to-Win)</i>"]
+    R --> R2["2. Classificació i Continguts<br/><i>(Sistema PEGI i violència)</i>"]
+    R --> R3["3. Inclusió i Accessibilitat<br/><i>(Adaptació per a tots els públics)</i>"]
+    R --> R4["4. Salut Laboral i Crunch<br/><i>(Explotació en la indústria)</i>"]
+    R --> R5["5. Preservació Digital<br/><i>(Pèrdua de jocs antics)</i>"]
 ```
 
-![Emprenta ecològica i basura electrònica](https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1200&q=80)
-*Figura 3: L'acumulació de residus electrònics (e-waste) i el consum energètic massiu dels centres de dades representen un greu repte mediambiental.*
+![Preservació del videojoc i arcade clàssic](https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=1200&q=80)
+*Figura 5: La preservació del videojoc clàssic i la responsabilitat en el disseny són reptes fonamentals per a la cultura digital.*
 
-- **La Bretxa Digital**: La desigualtat entre aquells que tenen accés ràpid a la tecnologia i la formació adequada, i els que en mantenen mancances per motius econòmics, geogràfics o generacionals.
-- **La Emprenta Digital i la Privacitat**: Cada clic, cerca o *m'agrada* deixa un rastre de dades personals en la xarxa que moltes empreses utilitzen per a crear perfils comercials o predir comportaments.
-- **La Ciberseguretat**: Virus, *ransomware*, suplantació d'identitat i ciberassetjament (*cyberbullying*) requereixen coneixements de prevenció activa.
-- **L'Adicció i el Benestar Digital**: Aprendre a gestionar el temps de pantalla i desconnectar (*desintoxicació digital*) és fonamental per a mantindre la salut física i mental.
-- **Impacte Ambiental de la Tecnologia**: La fabricació de microxips, el consum energètic massiu dels centres de dades (servidors i IA) i la basura electrònica (*e-waste*) generen una emprenta ecològica considerable.
+- **Monetització Depredadora (*Pay-to-Win* i Caixes de Botí):** El dilema ètic entre dissenyar per a divertir o dissenyar per a exprimir econòmicament l'usuari mitjançant apostes encobertes.
+- **Classificació per Edats (Codi PEGI / ESRB):** La responsabilitat d'etiquetar correctament el contingut (violència, llenguatge soez, compres integrades) per a protegir els menors.
+- **Inclusió, Diversitat i Accessibilitat:** Crear jocs accessibles per a persones amb diversitat funcional motora, visual o auditiva (comandaments reassignables, paletes per a daltonisme, subtítols per a sords) i representar la diversitat social amb respecte.
+- **Condicions Laborals (*Crunch*):** La problemàtica de les jornades de faena excessives no pagades en els grans estudis abans dels llançaments.
+- **Preservació del Videojoc i Propietat Digital:** Quan un joc és exclusivament online o requereix servidors que l'empresa apaga, el joc desapareix per a sempre. Com protegim la història digital?
 
->  **Activitats de l'apartat:**
-> 1. **La bretxa en el teu entorn:** Coneixes a algú proper (gent gran, veïns o famílies) que tinga dificultats per a fer tràmits digitals bàsics? Quines solucions proposaries per a reduir eixa bretxa?
-> 2. **Basura electrònica (*e-waste*):** Investiga què passa amb els mòbils vells o els components electrònics que es tiren al fem domèstic. Per què és crucial reciclar-los en punts nets?
-> 3. **El repte del benestar digital:** Series capaç de passar 24 hores consecutives sense mirar cap pantalla (mòbil, televisió, consola, ordinador)? Quines dificultats creus que tindries?
-
----
-
-## 6. On Estem i Cap a On Anem? El Context Tecnològic Actual
-
-Estem vivint una de les transformacions més ràpides i intenses de la història de la humanitat. El panorama digital actual no és estàtic; evoluciona a un ritme vertiginós obrint interrogants fascinants sobre com serà el nostre futur pròxim.
-
-![Intel·ligència Artificial i Automatització](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80)
-*Figura 4: L'eclosió de la Intel·ligència Artificial i l'automatització redefiniran el treball, la creativitat i l'aprenentatge.*
-
-### Tendències i Vectors del Canvi Actual:
-
-1. **L'Era de la Intel·ligència Artificial Generativa**: Hem passat d'ordinadors que executen ordres preprogramades a sistemes capaços de generar text, imatges, codi o música, raonar i prendre decisions. Com canviarà açò el treball, l'art i l'aprenentatge?
-2. **El Canvi de Paradigma: Del Tindre a l'Accedir (Pèrdua de Propietat)**: Abans compràvem CDs, pel·lícules en DVD, jocs físics o llicències de programari per a tota la vida. Hui paguem subscripcions mensuals per a accedir a música, cinema, videojocs i eines digitals en el núvol. Ja no som "amos" dels béns digitals, sinó llogaters temporals.
-3. **Hiperconnectivitat i Internet de les Coses (IoT)**: Tot al nostre voltant (rellotges, electrodomèstics, cotxes, ciutats) està començant a recopilar dades i comunicar-se entre si en temps real.
-4. **Automatització i Transformació del Treball**: Faenes mecàniques i intel·lectuals repetitives estan sent automatitzades, la qual cosa exigeix desenvolupar habilitats humanes clau com la creativitat, el pensament crític i la capacitat de resoldre problemes no estructurats.
-
->  **Activitats de l'apartat:**
-> 1. **El dilema de la propietat digital:** Si pagues tots els mesos per vore una sèrie o jugar en el núvol i un dia retiren eixe contingut, creus que havies "comprat" alguna cosa? Quines diferències li veus respecte a tindre un disc o llibre físic?
-> 2. **Ús ètic de la IA:** Si li demanes a una Intel·ligència Artificial que et faça un treball escolar i el lliures sense modificar-lo ni revisar-lo, quins dilemes ètics i problemes d'aprenentatge creus que es plantegen?
-> 3. **L'ocupació del futur:** Pensa en dos professions que creus que canviaran radicalment degut a l'automatització i proposa dues habilitats humanes que cap màquina podrà reemplaçar fàcilment.
+> **Activitats de l'apartat:**
+> 1. **Investiga el codi PEGI:** Busca què signifiquen les etiquetes PEGI 3, PEGI 7, PEGI 12, PEGI 16 i PEGI 18 i quines són les descripcions de contingut.
+> 2. **Disseny accessible:** Piensa en un joc on el jugador siga daltònic. Quins canvis faries en la paleta de colors o formes perquè poguera jugar sense problemes?
+> 3. **Debat sobre preservació:** Si vas comprar un videojoc en versió digital i l'empresa tanca el seu servidor 5 anys després impedint-te jugar, et sembla just? Argumenta la teua postura.
 
 ---
 
-## 7. La Emprenta Tecnològica Personal: El Teu Ecosistema Digital
+## 6. On Estem i Cap a On Ens Dirigim? El Context Tecnològic Actual
 
-Abans de submergir-nos en els blocs tècnics, és imprescindible mapejar el nostre propi entorn. Cadascú de nosaltres viu dins d'una "bambolla digital" formada pels dispositius que utilitza, les plataformes que freqüenta, les dades que comparteix de manera conscient o inconscient i el temps que dedica a cada pantalla.
+El desenvolupament de videojocs evoluciona a un ritme vertiginós impulsat per la innovació tècnica:
 
-```mermaid
-graph TD
-    M["El Meu Ecosistema Digital"] --> D["Dispositius<br/><i>(Smartphone, PC, Tauleta, Smartwatch)</i>"]
-    M --> P["Plataformes<br/><i>(Xarxes socials, Streaming, Jocs)</i>"]
-    M --> N["Núvol i Serveis<br/><i>(Drive, Correu, Aules, ID Digital)</i>"]
-    M --> H["Emprenta Visible i Invisible<br/><i>(M'agrada, Ubicació, Historial, Dades)</i>"]
-```
+![Realitat Virtual i entorns immersius](https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&w=1200&q=80)
+*Figura 6: La Realidad Virtual (VR), el Cloud Gaming i la Intel·ligència Artificial estan redefinint les fronteres de la immersió.*
 
-Analitzar objectivament com ens relacionem amb la tecnologia ens permet prendre el control de les nostres eines en compte de deixar que ens condicionen.
+### Tendències i Vectors del Canvi Actual
 
->  **Activitats de l'apartat:**
-> 1. **Inventari de dispositius:** Fes una llista de tots els aparells amb connexió a Internet que hi ha a la teua casa. Quants en fas servir tu diàriament i quantes hores calcules que passes davant d'ells?
-> 2. **Auditoria de permisos:** Revisa els permisos (càmera, micròfon, ubicació, contactes) de les 3 aplicacions que més utilitzes en el teu telèfon. Totes necessiten realment tots eixos permisos per a funcionar correctament?
-> 3. **Estimació de dades:** Si hagueres de calcular quantes dades personals teues (fotos, ubicacions, cerques, hàbits) tenen guardades empreses de tecnologia en el núvol, quines dades creus que serien les més sensibles o privades?
+1. **Intel·ligència Artificial en el Desenvolupament:** Eines d'IA que ajuden a generar codi, redactar diàlegs secundaris, crear textures, compondre música o simular comportaments de NPCs (*Non-Playable Characters*) molt més intel·ligents i realistes.
+2. **Democratització amb Motors 'Open Source' i Accessibles:** Motors com **Godot Engine** (gratuït i de codi obert) o eines visuals com Construct i Scratch permeten a estudis de 1 persona o estudiants d'ESO crear jocs professionals sense pressupostos milionaris.
+3. **L'Auge de l'Escena 'Indie' (Independent):** Jocs amb pressupostos xicotets però amb idees genials (*Minecraft*, *Hollow Knight*, *Celeste*, *Undertale*, *Balatro*) superen sovint en èxit a produccions de centenars de milions de dòlars.
+4. **Joc en el Núvol (*Cloud Gaming*) i Realitat Virtual (VR):** Servidors remots que processen el joc en streaming a qualsevol pantalla (mòbil, TV) i visors que introdueixen el jugador físicament dins de l'escenari.
+
+> **Activitats de l'apartat:**
+> 1. **Fenomen Indie:** Busca informació sobre el desenvolupament de *Celeste* o *Hollow Knight*. Quantes persones formaven l'equip de desenvolupament?
+> 2. **IA en els jocs:** En quins aspectes creus que la Intel·ligència Artificial pot millorar un videojoc i en quins creus que el toc humà continua sent insubstituïble?
+> 3. **El motor del curs:** Investigagueu sobre el motor **Godot Engine** i per què és una de les eines més recomanades per a l'educació i el desenvolupament independent.
 
 ---
 
-## 8. Exercicis i Activitats de Consolidació Global
+## 7. Exercicis i Activitats de Consolidació Globals
 
 A continuació es presenten 10 activitats variades per a repassar, reflexionar i consolidar de manera individual tots els conceptes clau treballats en este tema d'introducció:
 
 ### 1. Definició i conceptes bàsics (Resposta curta)
-Explica amb les teues paraules què significa **digitalitzar** una informació o procés i detalla quina funció compleix el codi binari (`0` i `1`) en els dispositius informàtics.
+Explica amb les teues pròpies paraules què és un **videojoc** i detalla per què la **interactivitat** el diferencia d'altres mitjans d'entreteniment com el cine o la literatura.
 
-### 2. Relaciona les columnes (Món Analògic vs. Món Digital)
-Associa cada element del **Món Analògic** (Columna A) amb la seua corresponent transformació en el **Món Digital** (Columna B):
+### 2. Relaciona les columnes (Conceptes i Història del Videojoc)
+Associa cada fita o concepte de la **Columna A** amb la seua corresponent definició o repercussió en la **Columna B**:
 
-| Columna A: Món Analògic | Columna B: Món Digital |
+| Columna A | Columna B |
 | :--- | :--- |
-| **1.** Carta en paper enviada per correu postal | **A.** Plataforma de música en streaming (Spotify) |
-| **2.** Col·lecció de CDs de música | **B.** Missatge instantani / Correu electrònic |
-| **3.** Monedes i bitllets en el moneder | **C.** Arxiu PDF en el núvol |
-| **4.** Expedient mèdic en una carpeta física | **D.** Signatura digital i certificat d'identitat |
-| **5.** Document d'identitat en targeta física | **E.** Bizum / Pagament mòbil sense contacte |
+| **1.** Model MDA | **A.** Primera consola domèstica que utilitzava cartutxos intercanviables. |
+| **2.** Crash de 1983 | **B.** Metodologia basada en Mecàniques, Estètica i Narrativa. |
+| **3.** Atari 2600 | **C.** Fallida massiva de la indústria per falta de control de qualitat. |
+| **4.** Godot Engine | **D.** Plataforma digital clau per a la distribució de jocs indie. |
+| **5.** Steam / itch.io | **E.** Motor de jocs gratuït i de codi obert accessible per a educació. |
 
-*Escriu les teues respostes emparellant el número amb la lletra (exemple: 1-B, 2-A...)*
-
----
-
-### 3. Completa els buits (Mecanismes de l'entorn digital)
-Omple els espais en blanc utilitzant els següents termes: *algorismes de recomanació*, *atenció*, *emprenta digital*, *bambolla de filtre*, *gratuït*.
-
-> a) Quan utilitzem un servei web o aplicació que és totalment _______________, hem de recordar la màxima: "Si no pagues pel producte, tu eres el producte", ja que l'empresa comercialitza amb les teues dades i la teua _______________.
-> 
-> b) Cada cerca, m'agrada, comentari o arxiu pujat a Internet contribueix a construir la nostra _______________ permanent en la xarxa.
-> 
-> c) Les plataformes utilitzen _______________ per a analitzar els teus gustos i mostrar-te continguts personalitzats, la qual cosa pot tancar-te en una _______________ on sols veus informació d'acord amb les teues preferències.
+*Escriu les teues respostes aparellant el número amb la lletra (exemple: 1-B, 2-C...)*
 
 ---
 
-### 4. Quadre comparatiu: Consumidor Passiu vs. Creador Digital Actiu
-Completa la següent taula assenyalant quina actitud adoptaria cada perfil davant de les situacions plantejades:
+### 3. Completa els buits (Pilares i Mecàniques)
+Ompli els espais en blanc utilitzant els termes següents: *Game Loop*, *Mecàniques*, *FOMO*, *GDD*, *Interactivitat*.
 
-| Situació plantejada | Actitud del Consumidor Passiu | Actitud del Creador Digital Actiu |
+> a) Les regles i accions que determinen el que el jugador pot fer dins del joc s'anomenen _______________.
+> 
+> b) El document tècnic on s'especifica tota la visió, regles i art d'un projecte abans de programar s'anomena _______________.
+> 
+> c) El cicle bàsic repetitiu d'entrada, processament i eixida gràfica en temps real es coneix com a _______________.
+> 
+> d) Les promocions per temps limitat en jocs mòbils generen l'efecte _______________ per a evitar que l'usuari deixe de connectar-se.
+
+---
+
+### 4. Quadre comparatiu: Jugador Passiu vs. Dissenyador/Creador Activo
+Completa la taula següent assenyalant quina actitud adoptaria cada perfil davant de les situacions plantejades:
+
+| Situació plantejada | Actitud del Jugador Passiu | Actitud del Creador / Dissenyador Actiu |
 | :--- | :--- | :--- |
-| Rep un missatge cridaner sobre un sorteig en WhatsApp | | |
-| Vol mostrar un projecte o faena de classe | | |
-| Instal·la una nova aplicació en el seu telèfon | | |
+| Es troba amb un nivell extremadament difícil | | |
+| Veu una fallada visual o *bug* on el personatge travessa una paret | | |
+| Rep un missatge per a comprar una caixa de botí aleatòria | | |
 
 ---
 
-### 5. Anàlisi d'imatge i dilema tècnic
-Observa el següent gràfic sobre el procés de digitalització:
+### 5. Anàlisi de diagrama i lògica del joc
+Observa el següent esquema simplificat del Bucle de Joc (*Game Loop*):
 
 ```
-[Senyal Analògica (Ona Contínua)] ---> [Mostreig i Codificació Binària] ---> [Dades Digitals (0 i 1)]
+[Premre Tecla 'Fletxa Dreta'] ---> [Sumar +5 a Posició_X del Personatge] ---> [Redibuixar Sprite en Pantalla]
 ```
 
-Per què creus que un arxiu digital es pot copiar un milió de vegades sense perdre gens de qualitat, mentre que una cinta de vídeo VHS o un cassette analògic es deteriorava cada vegada que es copiava o es reproduïa?
+Explica què ocorreria en la pantalla si el programador oblida incloure la part de *Redibuixar Sprite en Pantalla* encara que el codi continue sumant +5 a la posició interna.
 
 ---
 
-### 6. Classificació de Reptes Digitals
-De la següent llista de situacions reals, classifica cadascuna segons el **Repte del Món Digital** al qual correspon (*Bretxa Digital*, *Ciberseguretat*, *Benestar Digital*, *Impacte Ambiental*, *Privacitat*):
+### 6. Classificació de Reptes de la Indústria
+Classifica cadascuna de les situacions següents segons el **Repte de la Indústria del Videojoc** a què correspon (*Monetització Depredadora*, *Inclusió i Accessibilitat*, *Classificació PEGI*, *Preservació Digital*, *Salut Laboral / Crunch*):
 
-- **A.** Un iaio no pot demanar cita mèdica perquè la consulta sols es gestiona mitjançant una app mòbil. → _______________
-- **B.** Una persona rep un correu fals que imita al seu banc demanant les seues claus d'accés. → _______________
-- **C.** Sentir ansietat o necessitat de revisar el telèfon mòbil als pocs minuts de deixar-lo a la taula. → _______________
-- **D.** L'enorme consum d'energia i aigua que requereixen els centres de dades que entrenen la Intel·ligència Artificial. → _______________
-- **E.** Un cercador web que guarda la teua ubicació per a enviar-te publicitat de botigues properes. → _______________
-
----
-
-### 7. Qüestió d'opinió fonamentada (Propietat Digital)
-Si pagues una subscripció mensual en una plataforma de videojocs o sèries i la companyia decideix eliminar un títol del seu catàleg, sents que t'han quitat alguna cosa teua? Justifica la teua resposta reflexionant sobre les diferències entre **tindre un objecte físic** i **llogar accés al núvol**.
+- **A.** Un joc que afegeix l'opció de canviar els botons perquè una persona amb mobilitat reduïda puga jugar amb una sola mà. → _______________
+- **B.** Programadors treballant 14 hores diàries durant 3 mesos seguits per a acabar un joc a temps. → _______________
+- **C.** Una botiga digital que tanca els seus servidors impedint tornar a descarregar jocs antics pagats. → _______________
+- **D.** Un avís en la portada del joc indicando que conté compres dins de l'aplicació i violència moderada. → _______________
+- **E.** Un cofre virtual que exigeix pagar 2€ reals per una probabilitat del 1% d'aconseguir una espasa llegendària. → _______________
 
 ---
 
-### 8. Anàlisi de veracitat i verificació
-Imagina que et arriba un vídeo hiperrealista generat per Intel·ligència Artificial (*deepfake*) en el qual una persona famosa diu alguna cosa escandalosa. Enumera **tres passos concrets** que megeries com a ciutadà digital crític per a verificar si el vídeo és vertader o fals abans de compartir-lo.
+### 7. Qüestió d'opinió fonamentada (Són els videojocs art?)
+Redacta un text argumentatiu d'entre 6 i 10 línies responend a la pregunta: *Consideres que els videojocs haurien de ser reconeguts oficialment com a la 8a Art, a l'altura de la pintura, el cine o la música?* Recolza't en elements com la narrativa, la música i la direcció artística per a fonamentar la teua postura.
 
 ---
 
-### 9. El Meu Ecosistema Digital
-Omple la següent plantilla amb les teues pròpies dades reals:
-
-- **Dispositiu principal que més utilitze:** ____________________
-- **Temps mitjà diari de pantalla:** ____________________
-- **La meua aplicació més utilitzada:** ____________________
-- **Mesura de seguretat que ja aplique:** ____________________
-- **Aspecte digital que em meua comprometo a millorar este curs:** ____________________
+### 8. Anàlisi ètic de mecàniques de monetització
+Imagina que estàs dissenyant un videojoc per a mòbils. Explica la diferència entre un model de monetització **ètic** (ex: vendre aspectes estètics opcionals sense avantatge) i un model **depredador** (ex: impedir avançar en el joc si no pagues diners reals o esperar 24 hores).
 
 ---
 
-### 10. Balanç Global: La Balança Digital
-Redacta un text breu (d'entre 5 i 10 línies) responent a esta qüestió: En una balança global, consideres que la digitalització aporta més beneficis o més inconvenients a la societat actual? Esmenta almenys **dos punts positius** i **dos punts negatius** per a argumentar la teua postura.
+### 9. El meu Perfil de Creador/a Gamer
+Ompli la plantilla següent amb les teues dades reals:
+
+- **Plataforma principal on solc jugar:** ____________________
+- **El meu videojoc favorit de tots els temps:** ____________________
+- **Àrea en la qual m'agradaria col·laborar més en el meu equip (Programación / Art / Guió / So):** ____________________
+- **Un hàbit de joc responsable que hem compromet a mantindre:** ____________________
+- **Nom de fantasia per al nostre futur estudi de videojocs de classe:** ____________________
 
 ---
 
-### Activitat d'Investigació i Indagació Inicial 
+### 10. Balanç Global: La Balança del Videojoc
+Redacta una reflexió final (d'entre 5 i 10 línies): En la balança global de la societat, creus que els videojocs aporten més beneficis (educació, cultura, treball en equip, entreteniment) o més riscs (addicció, sedentarisme, despeses impulsives)? Justifica la teua resposta aportant **dos arguments a favor** i **dues mesures de prevenció**.
+
+---
+
+### Activitat d'Investigació i Indagació Inicial
 
 > **Projectes d'Indagació:**
 > 
-> Trieu un dels següents temes plantejats i prepareu una breu exposició o presentació amb les vostres conclusions:
-> 
-> 1. **El fi de la propietat privada digital**: Investigueu què passa si una plataforma de contingut en *streaming* (música, jocs o vídeo) decideix retirar una obra del seu catàleg o tancar el vostre compte. Som realment amos d'allò que comprem digitalment?
-> 2. **La paradoxa de la Intel·ligència Artificial**: Investigueu com la IA pot ajudar-nos a resoldre problemes complexos (com descobrir medicaments) però, al mateix temps, genera reptes com la desinformació massiva o el consum massiu d'aigua i electricitat en els seus servidors.
-> 3. **Auditoria del teu Ecosistema Digital**: Elabora una llista de tots els dispositius, aplicacions i serveis en el núvol que utilitzes en una setmana. De quantes empreses diferents depenen? Què passaria amb les teues dades si una d'eixes empreses tancara demà?
+> 1. **La història del desenvolupament independent (Indie)**: Investigat la història de *Minecraft* o *Balatro*. Com van aconseguir creadors en solitari superar en vendes a superproduccions milionàries?
+> 2. **Jocs amb impacte social (Serious Games)**: Investigat sobre videojocs creats específicament per a conscienciar sobre el canvi climàtic, la salut mental o la història (exemple: *Gris*, *Never Alone*, *Through the Darkest of Times*).
+> 3. **Auditoria del teu videojoc favorit**: Selecciona un joc i esbrina amb quin motor (*Game Engine*) va ser desenvolupat (Unity, Unreal Engine, Godot, motor propi...) i de quantes persones constava l'equip de desenvolupament.
